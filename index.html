@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Guessing Game</title>
+    <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/previews/010/784/649/non_2x/yellow-abstract-lamp-and-question-mark-logo-creative-logo-idea-concept-logo-concept-vector.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Guess The Correct Logo</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="name">
+            <h2 id="name">Pepsi</h1>
+        </div>
+        <div class="logos">
+            <div class="one">
+                <img src="" alt="logo1" id="logo1">
+                <button id="a" value="a" onclick="check(this)">A</button>
+            </div>
+            <div class="two">
+                <img src="" alt="logo2" id="logo2">
+                <button id="b" value="b" onclick="check(this)">B</button>
+            </div>
+        </div>
+        <div class="result" id="result">
+            <i class="fa fa-check" id="status"></i>
+            <p id="ans"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

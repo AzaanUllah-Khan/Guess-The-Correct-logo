@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+
+}
+
+.container h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 25%;
+    margin: 50px auto 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.logos {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.one,
+.two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div img {
+    width: 200px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 25px;
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    display: none;
+    transform: translate(-50%,0%);
+}
+
+.result i {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
