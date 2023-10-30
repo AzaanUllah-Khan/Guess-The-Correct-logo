@@ -53,6 +53,7 @@ header h1 {
 
 div img {
     width: 200px;
+    height: 190px;
 }
 
 button {
@@ -79,9 +80,11 @@ button {
     border-radius: 10px;
     padding: 7px 10px;
     position: absolute;
-    top: 10px;
+    bottom: 50px;
     left: 50%;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
     transform: translate(-50%,0%);
 }
 
